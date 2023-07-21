@@ -164,7 +164,7 @@ export default {
   computed: {
     employeeName() {
       let allEmployees = employeeStore.getters.getAllEmployees;
-      console.log("Djole: " + allEmployees.length);
+      console.log("Boris: " + allEmployees.length);
       for (let i in allEmployees) {
         if (allEmployees[i].id === this.leave.employeeId) {
           return allEmployees[i].firstName + " " + allEmployees[i].lastName;

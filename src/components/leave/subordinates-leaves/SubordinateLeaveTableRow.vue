@@ -124,7 +124,7 @@ export default {
       this.snackbar.show = true;
     },
     leaveUpdated() {
-      console.log("Pera")
+      console.log("Boris")
       this.snackbar.show = true;
       this.snackbar.text = "Leave updated successfully."
       this.snackbar.color = "green-lighten-2";
